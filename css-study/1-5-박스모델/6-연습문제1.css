@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+section {
+  border: 3px double #123456;
+  width: 550px;
+  margin: 70px auto;
+}
+section .main-title {
+  background: #abcdef;
+  margin: 0;
+  text-align: center;
+  padding: 15px 0;
+  border-bottom: 3px solid #123456;
+  letter-spacing: 10px;
+}
+section .content {
+  padding: 15px 12px;
+}
+section .content .sub-title {
+  margin: 0;
+}
+section .content p {
+  margin: 0;
+  margin-top: 10px;
+}
+
+section .content:last-child {
+  /* background: red; */
+  border-top: 3px dotted #123456;
+}
